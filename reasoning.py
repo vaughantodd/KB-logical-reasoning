@@ -5,8 +5,8 @@ def debug(string):
         print(string)
 
 
-print("Hello, welcome to Vaughan's Assignment 2.2, enter KB using ^, v and =>. Type nil when done\n" \
-"Note: only one v or ^ allowed in premesis and only one variable as conclusion, if ^ is present, v will be treated as a letter.\n")
+print("Enter KB using ^, v and =>. Type nil when done\n" \
+"Note: only one v or ^ allowed in premises and only one variable as conclusion, if ^ is present, v will be treated as a letter.\n")
 DEBUG = False
 facts = set()
 rules = {}
